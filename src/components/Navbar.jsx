@@ -16,6 +16,7 @@ const Navbar = () => {
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><NavLink to="/">Homepage</NavLink></li>
                         <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/register">Register</NavLink></li>
                     </ul>
                 </div>
             </div>

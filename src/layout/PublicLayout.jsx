@@ -5,10 +5,10 @@ import Footer from '../components/Footer'
 
 function PublicLayout() {
     return (
-        <div>
+        <div className="flex min-h-screen flex-col">
             <Navbar />
             <ThemeSwap />
-            <main className='flex-1'>
+            <main className='flex flex-1'>
                 <Outlet />
             </main>
             <Footer />
